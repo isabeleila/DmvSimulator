@@ -1,6 +1,4 @@
-import java.util.random.*;
 import java.util.Random;
-import java.util.Scanner;
 
 public class DmvSimulator{
     public static void main (String args[]){
@@ -21,7 +19,7 @@ public class DmvSimulator{
                 currentNum++;
             }
         } System.out.println("Your number has been called!");
-        System.out.println("You do not have the required paperwork, get out of the line!");
+        System.out.println("You do not have the required paperwork, get out of the line and never return!");
 
     }
 }
