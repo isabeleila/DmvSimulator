@@ -10,7 +10,6 @@ public class DmvSimulator{
         Random rand = new Random();
         int randNum = rand.nextInt(200) +1;
         System.out.println("Your number in line is " + randNum);
-        
         int currentNum = randNum +1;
 
         while (currentNum != randNum){
@@ -23,9 +22,11 @@ public class DmvSimulator{
             }
         } System.out.println("Your number has been called!");
         if (chance.nextDouble() < 0.99){
-            System.out.println("You do not have the required paperwork, get out of the line and never return!");
+            System.out.println("You do not have the required paperwork, get out of the line and never return!\n MWAHAHAHAH!!");
         } else{
             System.out.println("You have all of the required paperwork! You're all set, have a nice day.");
         }
+        
+
     }
 }
