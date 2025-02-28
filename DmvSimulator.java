@@ -18,7 +18,7 @@ public class DmvSimulator{
                 currentNum++;
             }
         } System.out.println("Your number has been called!");
-        System.out.println("You do not have the required paperwork, get out of the line and never return!");
+        System.out.println("You do not have the required paperwork, get out of the line and never return!\n MWAHAHAHAH!!");
 
     }
 }
