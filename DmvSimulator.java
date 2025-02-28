@@ -7,7 +7,7 @@ public class DmvSimulator{
         Random rand = new Random();
         int randNum = rand.nextInt(200) +1;
         System.out.println("Your number in line is " + randNum);
-        
+        gi
         int currentNum = randNum +1;
 
         while (currentNum != randNum){
